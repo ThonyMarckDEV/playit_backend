@@ -10,6 +10,7 @@ class CorsMiddleware
     {
         $allowedOrigins = [
             'http://localhost:3000',
+            'https://playit-ten.vercel.app'
         ];
 
         $origin = $request->headers->get('Origin');
